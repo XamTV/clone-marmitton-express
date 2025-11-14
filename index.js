@@ -16,7 +16,7 @@ export const dbPromise = open({
   filename: "./db.db",
   driver: sqlite3.Database,
 });
-
+//test
 try {
   const db = await dbPromise;
   await db.exec(`
