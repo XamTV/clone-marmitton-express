@@ -12,6 +12,6 @@ export const checkToken = (req, res, next) => {
     next();
   } catch (err) {
     console.error(err);
-    res.status(401).json({ error: "Token invalide" });
+    res.status(401).json({ error: "Token invalide !" });
   }
 };
